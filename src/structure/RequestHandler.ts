@@ -40,9 +40,9 @@ export class RequestHandler {
 	private async execute(): Promise<any> {
 		if (this._busy) return;
 		this._busy = true;
-		while (this._remaining) {
+		while (this._queue.length && this._remaining) {
 			const current = this._queue.shift();
-			if (!current) return;
+			if (!current) break;
 			try {
 				const { body, headers } = await get(current.request.host)
 					.query(current.request.query);
