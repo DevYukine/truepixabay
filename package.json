@@ -1,6 +1,6 @@
 {
   "name": "truepixabay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a library to interact with pixabay api.",
   "main": "./dist/index.js",
   "types": "./dist/typings/index.d.ts",
@@ -10,8 +10,8 @@
   "private": false,
   "devDependencies": {
     "@types/snekfetch": "^3.6.0",
-    "typescript": "^2.8.3",
-    "tslint": "^5.10.0"
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
   },
   "dependencies": {
     "snekfetch": "3.6.4"
