@@ -4,7 +4,7 @@
   "description": "a library to interact with pixabay api.",
   "main": "./dist/index.js",
   "types": "./dist/typings/index.d.ts",
-  "repository": "git@github.com:Dev-Yukine/weatherware.git",
+  "repository": "git@github.com:Dev-Yukine/truepixabay.git",
   "author": "Yukine <devyukine@gmx.de>",
   "license": "MIT",
   "private": false,
